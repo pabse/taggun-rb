@@ -1,0 +1,8 @@
+Description:
+    Creates an initializer file for taggun.
+
+Example:
+    rails generate taggun valid_api_key
+
+    This will create:
+        config/initializers/taggun.rb

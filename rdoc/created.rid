@@ -1,0 +1,9 @@
+Tue, 02 Apr 2019 16:20:39 +0200
+README.md	Tue, 02 Apr 2019 15:16:21 +0200
+lib/generators/taggun/taggun_generator.rb	Tue, 02 Apr 2019 15:57:12 +0200
+lib/taggun.rb	Tue, 02 Apr 2019 16:10:04 +0200
+lib/taggun/acts_as_taggun.rb	Tue, 02 Apr 2019 15:19:53 +0200
+lib/taggun/configuration.rb	Tue, 02 Apr 2019 14:21:42 +0200
+lib/taggun/parser.rb	Tue, 02 Apr 2019 16:20:37 +0200
+lib/taggun/railtie.rb	Tue, 02 Apr 2019 15:28:09 +0200
+lib/taggun/version.rb	Tue, 02 Apr 2019 15:58:12 +0200

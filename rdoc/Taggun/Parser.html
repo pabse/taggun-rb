@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta charset="UTF-8">
+
+<title>class Taggun::Parser - Taggun</title>
+
+<script type="text/javascript">
+  var rdoc_rel_prefix = "../";
+  var index_rel_prefix = "../";
+</script>
+
+<script src="../js/jquery.js"></script>
+<script src="../js/darkfish.js"></script>
+
+<link href="../css/fonts.css" rel="stylesheet">
+<link href="../css/rdoc.css" rel="stylesheet">
+
+
+
+
+<body id="top" role="document" class="class">
+<nav role="navigation">
+  <div id="project-navigation">
+    <div id="home-section" role="region" title="Quick navigation" class="nav-section">
+  <h2>
+    <a href="../index.html" rel="home">Home</a>
+  </h2>
+
+  <div id="table-of-contents-navigation">
+    <a href="../table_of_contents.html#pages">Pages</a>
+    <a href="../table_of_contents.html#classes">Classes</a>
+    <a href="../table_of_contents.html#methods">Methods</a>
+  </div>
+</div>
+
+    <div id="search-section" role="search" class="project-section initially-hidden">
+  <form action="#" method="get" accept-charset="utf-8">
+    <div id="search-field-wrapper">
+      <input id="search-field" role="combobox" aria-label="Search"
+             aria-autocomplete="list" aria-controls="search-results"
+             type="text" name="search" placeholder="Search" spellcheck="false"
+             title="Type to search, Up and Down to navigate, Enter to load">
+    </div>
+
+    <ul id="search-results" aria-label="Search Results"
+        aria-busy="false" aria-expanded="false"
+        aria-atomic="false" class="initially-hidden"></ul>
+  </form>
+</div>
+
+  </div>
+
+  
+
+  <div id="class-metadata">
+    
+    <div id="parent-class-section" class="nav-section">
+  <h3>Parent</h3>
+
+  
+  <p class="link">Object
+  
+</div>
+
+    
+    
+    <!-- Method Quickref -->
+<div id="method-list-section" class="nav-section">
+  <h3>Methods</h3>
+
+  <ul class="link-list" role="directory">
+    
+    <li ><a href="#method-c-new">::new</a>
+    
+    <li ><a href="#method-i-from_encoded">#from_encoded</a>
+    
+    <li ><a href="#method-i-from_file">#from_file</a>
+    
+    <li ><a href="#method-i-from_storage">#from_storage</a>
+    
+    <li ><a href="#method-i-from_url">#from_url</a>
+    
+    <li ><a href="#method-i-parse">#parse</a>
+    
+  </ul>
+</div>
+
+  </div>
+</nav>
+
+<main role="main" aria-labelledby="class-Taggun::Parser">
+  <h1 id="class-Taggun::Parser" class="class">
+    class Taggun::Parser
+  </h1>
+
+  <section class="description">
+    
+<p>Basic parser class</p>
+
+  </section>
+
+  
+  <section id="5Buntitled-5D" class="documentation-section">
+    
+
+    
+
+    
+
+    
+
+    
+     <section id="public-class-5Buntitled-5D-method-details" class="method-section">
+       <header>
+         <h3>Public Class Methods</h3>
+       </header>
+
+    
+      <div id="method-c-new" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">new</span><span
+            class="method-args">()</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+          
+
+          
+          <div class="method-source-code" id="new-source">
+            <pre>  <span class="ruby-comment"># File lib/taggun/parser.rb</span>
+<span class="line-num">6</span> <span class="ruby-keyword">def</span> <span class="ruby-identifier ruby-title">initialize</span>
+<span class="line-num">7</span>   <span class="ruby-identifier">raise</span>(<span class="ruby-constant">ArgumentError</span>, <span class="ruby-string">&#39;Initializer missing. See README for details&#39;</span>) <span class="ruby-keyword">if</span> <span class="ruby-constant">Taggun</span>.<span class="ruby-identifier">configuration</span>.<span class="ruby-identifier">nil?</span>
+<span class="line-num">8</span>   <span class="ruby-identifier">raise</span>(<span class="ruby-constant">ArgumentError</span>, <span class="ruby-string">&#39;Api Key not set. See README for details.&#39;</span>) <span class="ruby-keyword">if</span> <span class="ruby-constant">Taggun</span>.<span class="ruby-identifier">configuration</span>.<span class="ruby-identifier">api_key</span>.<span class="ruby-identifier">nil?</span>
+<span class="line-num">9</span> <span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
+
+    
+    </section>
+  
+     <section id="public-instance-5Buntitled-5D-method-details" class="method-section">
+       <header>
+         <h3>Public Instance Methods</h3>
+       </header>
+
+    
+      <div id="method-i-from_encoded" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">from_encoded</span><span
+            class="method-args">(method, encoded)</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+          
+
+          
+          <div class="method-source-code" id="from_encoded-source">
+            <pre>   <span class="ruby-comment"># File lib/taggun/parser.rb</span>
+<span class="line-num">37</span> <span class="ruby-keyword">def</span> <span class="ruby-identifier ruby-title">from_encoded</span>(<span class="ruby-identifier">method</span>, <span class="ruby-identifier">encoded</span>)
+<span class="line-num">38</span>   <span class="ruby-comment"># TODO</span>
+<span class="line-num">39</span> <span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
+
+    
+      <div id="method-i-from_file" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">from_file</span><span
+            class="method-args">(method, file)</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+          
+
+          
+          <div class="method-source-code" id="from_file-source">
+            <pre>   <span class="ruby-comment"># File lib/taggun/parser.rb</span>
+<span class="line-num">33</span> <span class="ruby-keyword">def</span> <span class="ruby-identifier ruby-title">from_file</span>(<span class="ruby-identifier">method</span>, <span class="ruby-identifier">file</span>)
+<span class="line-num">34</span>   <span class="ruby-comment"># TODO</span>
+<span class="line-num">35</span> <span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
+
+    
+      <div id="method-i-from_storage" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">from_storage</span><span
+            class="method-args">(method, md5)</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+          
+
+          
+          <div class="method-source-code" id="from_storage-source">
+            <pre>   <span class="ruby-comment"># File lib/taggun/parser.rb</span>
+<span class="line-num">41</span> <span class="ruby-keyword">def</span> <span class="ruby-identifier ruby-title">from_storage</span>(<span class="ruby-identifier">method</span>, <span class="ruby-identifier">md5</span>)
+<span class="line-num">42</span>   <span class="ruby-comment"># TODO</span>
+<span class="line-num">43</span> <span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
+
+    
+      <div id="method-i-from_url" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">from_url</span><span
+            class="method-args">(url, method = Taggun::SIMPLE)</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>Parse the receipt from url</p>
+
+<h3 id="method-i-from_url-label-Arguments">Arguments<span><a href="#method-i-from_url-label-Arguments">&para;</a> <a href="#top">&uarr;</a></span></h3>
+<ul><li>
+<p><code>url</code> - The URL to parse from as <code>String</code></p>
+</li><li>
+<p><code>method</code> - The method to get. Valid values are <code>Taggun::Simple</code> and <code>Taggun::Verbose</code>. Default is <code>Taggun::Simple</code></p>
+</li></ul>
+
+<p>Returns a <code>JSON</code> with the result from Taggun.io</p>
+          
+          
+
+          
+          <div class="method-source-code" id="from_url-source">
+            <pre>   <span class="ruby-comment"># File lib/taggun/parser.rb</span>
+<span class="line-num">21</span> <span class="ruby-keyword">def</span> <span class="ruby-identifier ruby-title">from_url</span>(<span class="ruby-identifier">url</span>, <span class="ruby-identifier">method</span> = <span class="ruby-constant">Taggun</span><span class="ruby-operator">::</span><span class="ruby-constant">SIMPLE</span>)
+<span class="line-num">22</span>   <span class="ruby-identifier">uri</span> = <span class="ruby-constant">URI</span>.<span class="ruby-identifier">parse</span>(<span class="ruby-node">&quot;#{BASE_URL}/#{RECEIPT_URL}/#{API_VERSION}/#{method}/#{URL}&quot;</span>)
+<span class="line-num">23</span> 
+<span class="line-num">24</span>   <span class="ruby-identifier">body</span> = {
+<span class="line-num">25</span>     <span class="ruby-value">url:</span> <span class="ruby-identifier">url</span>,
+<span class="line-num">26</span>     <span class="ruby-value">incognito:</span> <span class="ruby-constant">Taggun</span>.<span class="ruby-identifier">configuration</span>.<span class="ruby-identifier">incognito</span>,
+<span class="line-num">27</span>     <span class="ruby-value">refresh:</span> <span class="ruby-constant">Taggun</span>.<span class="ruby-identifier">configuration</span>.<span class="ruby-identifier">refresh</span>
+<span class="line-num">28</span>   }
+<span class="line-num">29</span> 
+<span class="line-num">30</span>   <span class="ruby-identifier">parse</span>(<span class="ruby-identifier">uri</span>, <span class="ruby-identifier">body</span>)
+<span class="line-num">31</span> <span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
+
+    
+      <div id="method-i-parse" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">parse</span><span
+            class="method-args">(uri, body)</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+          
+
+          
+          <div class="method-source-code" id="parse-source">
+            <pre>   <span class="ruby-comment"># File lib/taggun/parser.rb</span>
+<span class="line-num">45</span> <span class="ruby-keyword">def</span> <span class="ruby-identifier ruby-title">parse</span>(<span class="ruby-identifier">uri</span>, <span class="ruby-identifier">body</span>)
+<span class="line-num">46</span>   <span class="ruby-identifier">http</span>         = <span class="ruby-operator">::</span><span class="ruby-constant">Net</span><span class="ruby-operator">::</span><span class="ruby-constant">HTTP</span>.<span class="ruby-identifier">new</span>(<span class="ruby-identifier">uri</span>.<span class="ruby-identifier">host</span>, <span class="ruby-identifier">uri</span>.<span class="ruby-identifier">port</span>)
+<span class="line-num">47</span>   <span class="ruby-identifier">http</span>.<span class="ruby-identifier">use_ssl</span> = <span class="ruby-keyword">true</span>
+<span class="line-num">48</span> 
+<span class="line-num">49</span>   <span class="ruby-identifier">request</span> = <span class="ruby-operator">::</span><span class="ruby-constant">Net</span><span class="ruby-operator">::</span><span class="ruby-constant">HTTP</span><span class="ruby-operator">::</span><span class="ruby-constant">Post</span>.<span class="ruby-identifier">new</span>(
+<span class="line-num">50</span>     <span class="ruby-identifier">uri</span>.<span class="ruby-identifier">request_uri</span>,
+<span class="line-num">51</span>     <span class="ruby-value">&#39;Content-Type&#39;:</span> <span class="ruby-string">&#39;application/json&#39;</span>
+<span class="line-num">52</span>   )
+<span class="line-num">53</span>   <span class="ruby-identifier">request</span>[<span class="ruby-string">&#39;apikey&#39;</span>] = <span class="ruby-constant">Taggun</span>.<span class="ruby-identifier">configuration</span>.<span class="ruby-identifier">api_key</span>
+<span class="line-num">54</span> 
+<span class="line-num">55</span>   <span class="ruby-identifier">request</span>.<span class="ruby-identifier">body</span> = <span class="ruby-identifier">body</span>.<span class="ruby-identifier">to_json</span>
+<span class="line-num">56</span> 
+<span class="line-num">57</span>   <span class="ruby-identifier">response</span> = <span class="ruby-identifier">http</span>.<span class="ruby-identifier">request</span>(<span class="ruby-identifier">request</span>)
+<span class="line-num">58</span> 
+<span class="line-num">59</span>   <span class="ruby-constant">JSON</span>.<span class="ruby-identifier">parse</span>(<span class="ruby-identifier">response</span>.<span class="ruby-identifier">body</span>)
+<span class="line-num">60</span> <span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
+
+    
+    </section>
+  
+  </section>
+
+</main>
+
+
+<footer id="validator-badges" role="contentinfo">
+  <p><a href="https://validator.w3.org/check/referer">Validate</a>
+  <p>Generated by <a href="https://ruby.github.io/rdoc/">RDoc</a> 6.1.0.
+  <p>Based on <a href="http://deveiate.org/projects/Darkfish-RDoc/">Darkfish</a> by <a href="http://deveiate.org">Michael Granger</a>.
+</footer>
+
