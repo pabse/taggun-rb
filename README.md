@@ -48,8 +48,6 @@ The `form_xxx` methods return the Taggun responses. See https://api.taggun.io fo
 - Implement more scan types
 - Documentation
 - Add tests
-- Publish to RubyGems
-
 
 ## Contributing
 TODO

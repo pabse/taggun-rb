@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    taggun (0.4.0)
+    taggun (0.4.1)
 
 GEM
   remote: https://rubygems.org/
@@ -119,7 +119,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  pg
+  pg (>= 0.18, < 2.0)
   rails (~> 5.2.2, >= 5.2.2.1)
   taggun!
 
